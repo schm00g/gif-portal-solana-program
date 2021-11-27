@@ -1,0 +1,12 @@
+[programs.devnet]
+myniceproject = "is183aM4JfSQ9v56wV5hvNBFB83ZNrTgccwJMDGJSbX"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/shanemcgrath/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myniceproject.js"
